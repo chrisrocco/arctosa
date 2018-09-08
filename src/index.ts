@@ -1,6 +1,9 @@
 import {MarketDefinition} from "./markets/models/MarketDefinition"
 import {RootModule} from "./root.module"
 import {getConfig} from "./config"
+const dotenv = require('dotenv')
+
+dotenv.config()
 
 const PubSub = require(`@google-cloud/pubsub`)
 const pubsub = new PubSub()
@@ -22,7 +25,7 @@ const mkt: MarketDefinition = {
 }
 
 const run = async () => {
-    const root = RootModule(getConfig({}))
+    const root = RootModule(getConfig(process.env))
     const reply = await root.ctrls.eBayCtrl.fetchMarketData(mkt)
     console.log('reply', reply)
 }
