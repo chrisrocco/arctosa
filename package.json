@@ -1,0 +1,26 @@
+{
+  "name": "ebay-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node dist/index.js",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.19.0",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.18.0",
+    "dotenv": "^6.0.0",
+    "jest": "^23.5.0",
+    "rxjs": "^6.3.1"
+  }
+}

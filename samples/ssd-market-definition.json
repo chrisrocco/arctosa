@@ -1,0 +1,12 @@
+{
+  "uuid": "ssd-market-definition",
+  "query": {
+    "keywords": "SSD for Macbook",
+    "itemFilter": [
+      {
+        "name": "SoldItemsOnly",
+        "value": "true"
+      }
+    ]
+  }
+}

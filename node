@@ -1,0 +1,36 @@
+{
+  "uuid": "ssd-market-definition",
+  "query": {
+    "keywords": "SSD for Macbook",
+    "itemFilter": [
+      {
+        "name": "SoldItemsOnly",
+        "value": "true"
+      }
+    ]
+  }
+}"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const config_1 = require("./config");
+const EbayClient_1 = require("./ebay/EbayClient");
+const json = D => JSON.stringify(D, null, 2);
+// Load global app configuration
+const config = config_1.getConfig({});
+// eBay API headers factory
+const eBay = EbayClient_1.makeEbayClient(config);
+console.log(process.argv);
+// const mkt: MarketDefinition = JSON.parse(process.argv[0] as any)
+// Execute API call to eBay
+// eBay parameters: https://developer.ebay.com/Devzone/finding/Concepts/MakingACall.html
+// eBay.findCompletedItems(mkt.query)
+//     .then(R => R.searchResult[0].item)
+//     .then(normalizeItems)
+//     .then(items => ({ market_id: mkt.uuid, items }))
+//     .then(json)
+//     .then(console.log)
+//     .catch(err => console.error(err.request, 'something went wrong'))
+// Input = MarketDefinition
+// Calls eBay API
+// Transforms to publishable data
+// Publish to Pub/Sub topic
+// Done.

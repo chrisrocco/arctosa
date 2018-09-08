@@ -1,0 +1,534 @@
+{
+  "market_id": "fledging-market-definition",
+  "items": [
+    {
+      "itemId": "223011055243",
+      "title": "Mini PCI-E 2 Lane M.2 NGFF 30mm 42mm SSD For Macbook 2012 SSD",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "155707",
+        "categoryName": "Cables & Adapters"
+      },
+      "galleryURL": "http://thumbs4.ebaystatic.com/m/mH6PkzxAVhznJlptXwEYfkg/140.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/Mini-PCI-E-2-Lane-M-2-NGFF-30mm-42mm-SSD-Macbook-2012-SSD-/223011055243",
+      "paymentMethod": "PayPal",
+      "autoPay": "false",
+      "location": "China",
+      "country": "CN",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "0.0"
+        },
+        "shippingType": "Free",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "1"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "0.06"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "0.06"
+        },
+        "bidCount": "3",
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2018-06-08T23:30:02.000Z",
+        "endTime": "2018-06-13T23:30:02.000Z",
+        "listingType": "Auction",
+        "gift": "false"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "false",
+      "topRatedListing": "false"
+    },
+    {
+      "itemId": "401468149997",
+      "title": "M key M.2 PCI-e AHCI SSD Adapter Card for 2013 2014 2015 MACBOOK New US",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "74941",
+        "categoryName": "Drive Cables & Adapters"
+      },
+      "galleryURL": "http://thumbs2.ebaystatic.com/m/mXEZFOMMI42uucMYvJjEEAA/140.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/M-key-M-2-PCI-e-AHCI-SSD-Adapter-Card-2013-2014-2015-MACBOOK-New-US-/401468149997",
+      "paymentMethod": "PayPal",
+      "autoPay": "false",
+      "location": "China",
+      "country": "CN",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "2.18"
+        },
+        "shippingType": "Flat",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "2"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "0.99"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "0.99"
+        },
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2017-12-30T02:48:04.000Z",
+        "endTime": "2018-08-09T06:58:37.000Z",
+        "listingType": "FixedPrice",
+        "gift": "false",
+        "watchCount": "2"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "false",
+      "topRatedListing": "false"
+    },
+    {
+      "itemId": "362154685170",
+      "title": "SSD to SATA Adapter Card For Apple Macbook Air A1370 A1369 SS US",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "74941",
+        "categoryName": "Drive Cables & Adapters"
+      },
+      "galleryURL": "http://thumbs3.ebaystatic.com/m/mTLy4UWwmxNYXuD7nUDlZ3Q/140.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/SSD-SATA-Adapter-Card-Apple-Macbook-Air-A1370-A1369-SS-US-/362154685170",
+      "paymentMethod": "PayPal",
+      "autoPay": "true",
+      "location": "Hong Kong",
+      "country": "HK",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "0.0"
+        },
+        "shippingType": "Free",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "2"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.41"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.41"
+        },
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2017-11-10T00:22:04.000Z",
+        "endTime": "2018-08-23T06:36:42.000Z",
+        "listingType": "FixedPrice",
+        "gift": "false"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "false",
+      "topRatedListing": "false"
+    },
+    {
+      "itemId": "322963992413",
+      "title": "MC976 A1425 A1398 mSATA SSD To SATA 7+17 Pin Adapter Card for 2012 MacBook Pro",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "74941",
+        "categoryName": "Drive Cables & Adapters"
+      },
+      "galleryURL": "http://thumbs2.ebaystatic.com/m/mUBcpLc7XpZ_nLBKUfrSokg/140.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/MC976-A1425-A1398-mSATA-SSD-SATA-7-17-Pin-Adapter-Card-2012-MacBook-Pro-/322963992413",
+      "paymentMethod": "PayPal",
+      "autoPay": "false",
+      "location": "Hong Kong",
+      "country": "HK",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "0.0"
+        },
+        "shippingType": "Free",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "1"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.56"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.56"
+        },
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2017-12-28T02:57:52.000Z",
+        "endTime": "2018-06-12T12:16:09.000Z",
+        "listingType": "FixedPrice",
+        "gift": "false",
+        "watchCount": "4"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "false",
+      "topRatedListing": "false"
+    },
+    {
+      "itemId": "263486715837",
+      "title": "Sale SSD to SATA Adapter Card For Apple Macbook Air A1370 A1369 MZUS",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "74941",
+        "categoryName": "Drive Cables & Adapters"
+      },
+      "galleryURL": "http://thumbs2.ebaystatic.com/m/mTLy4UWwmxNYXuD7nUDlZ3Q/140.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/Sale-SSD-SATA-Adapter-Card-Apple-Macbook-Air-A1370-A1369-MZUS-/263486715837",
+      "paymentMethod": "PayPal",
+      "autoPay": "true",
+      "location": "China",
+      "country": "CN",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "0.0"
+        },
+        "shippingType": "Free",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "2"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.6"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.6"
+        },
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2018-02-09T06:02:07.000Z",
+        "endTime": "2018-08-30T09:01:29.000Z",
+        "listingType": "FixedPrice",
+        "gift": "false",
+        "watchCount": "1"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "false",
+      "topRatedListing": "false"
+    },
+    {
+      "itemId": "253386246198",
+      "title": "SSD to SATA Adapter Card For Apple Macbook Air A1370 A1369 TS &P",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "74941",
+        "categoryName": "Drive Cables & Adapters"
+      },
+      "galleryURL": "http://thumbs3.ebaystatic.com/m/mTLy4UWwmxNYXuD7nUDlZ3Q/140.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/SSD-SATA-Adapter-Card-Apple-Macbook-Air-A1370-A1369-TS-P-/253386246198",
+      "paymentMethod": "PayPal",
+      "autoPay": "false",
+      "location": "Hong Kong",
+      "country": "HK",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "0.0"
+        },
+        "shippingType": "Free",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "5"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.7"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.7"
+        },
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2018-01-24T04:01:04.000Z",
+        "endTime": "2018-08-27T12:17:59.000Z",
+        "listingType": "FixedPrice",
+        "gift": "false",
+        "watchCount": "1"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "false",
+      "topRatedListing": "false"
+    },
+    {
+      "itemId": "192567470282",
+      "title": "2nd 9.5mm 3.0 SATA 2.5\" SSD Hard Drive Bays Caddy For Macbook Air/Pro DVD/CD-ROM",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "158816",
+        "categoryName": "Drive Bay Caddies"
+      },
+      "galleryURL": "http://thumbs3.ebaystatic.com/m/m7KWyBfIpaYVQJe_AB5EOHQ/140.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/2nd-9-5mm-3-0-SATA-2-5-SSD-Hard-Drive-Bays-Caddy-Macbook-Air-Pro-DVD-CD-ROM-/192567470282",
+      "paymentMethod": "PayPal",
+      "autoPay": "false",
+      "location": "China",
+      "country": "CN",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "0.0"
+        },
+        "shippingType": "Free",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "2"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.96"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "3.96"
+        },
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2018-06-13T15:24:59.000Z",
+        "endTime": "2018-08-12T15:24:59.000Z",
+        "listingType": "FixedPrice",
+        "gift": "false",
+        "watchCount": "1"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "false",
+      "topRatedListing": "false"
+    },
+    {
+      "itemId": "192566430363",
+      "title": "1pc 6+12 pin SSD to 22 Pin SATA Converter Adapter Card for 2010 2011 MacBook Air",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "74941",
+        "categoryName": "Drive Cables & Adapters"
+      },
+      "galleryURL": "http://thumbs4.ebaystatic.com/m/m9p1fYrpon1SuJ-_iMjPG5w/140.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/1pc-6-12-pin-SSD-22-Pin-SATA-Converter-Adapter-Card-2010-2011-MacBook-Air-/192566430363",
+      "paymentMethod": "PayPal",
+      "autoPay": "false",
+      "location": "China",
+      "country": "CN",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "0.0"
+        },
+        "shippingType": "Free",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "2"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "4.08"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "4.08"
+        },
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2018-06-12T15:27:39.000Z",
+        "endTime": "2018-08-11T15:27:39.000Z",
+        "listingType": "FixedPrice",
+        "gift": "false",
+        "watchCount": "1"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "false",
+      "topRatedListing": "false"
+    },
+    {
+      "itemId": "123140898363",
+      "title": "PCI-E x4 M.2 NGFF to SSD Adapter Card for MacBook Air A1465 A1466 A1398 A1502 1x",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "74941",
+        "categoryName": "Drive Cables & Adapters"
+      },
+      "galleryURL": "http://thumbs4.ebaystatic.com/m/mg7f0b8SHj5mo_it6-zBcRQ/140.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/PCI-E-x4-M-2-NGFF-SSD-Adapter-Card-MacBook-Air-A1465-A1466-A1398-A1502-1x-/123140898363",
+      "paymentMethod": "PayPal",
+      "autoPay": "false",
+      "location": "China",
+      "country": "CN",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "0.0"
+        },
+        "shippingType": "Free",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "1"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "4.33"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "4.33"
+        },
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2018-05-18T08:32:34.000Z",
+        "endTime": "2018-07-17T08:32:34.000Z",
+        "listingType": "FixedPrice",
+        "gift": "false",
+        "watchCount": "11"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "false",
+      "topRatedListing": "false"
+    },
+    {
+      "itemId": "202287483303",
+      "title": "SATA 3.0 Slim Hard Disk Drive HDD SSD Mounting Bracket for MacBook Pro CD/DVD",
+      "globalId": "EBAY-US",
+      "primaryCategory": {
+        "categoryId": "158817",
+        "categoryName": "Drive Enclosures & Docks"
+      },
+      "galleryURL": "http://thumbs1.ebaystatic.com/pict/04040_0.jpg",
+      "viewItemURL": "http://www.ebay.com/itm/SATA-3-0-Slim-Hard-Disk-Drive-HDD-SSD-Mounting-Bracket-MacBook-Pro-CD-DVD-/202287483303?var=0",
+      "paymentMethod": "PayPal",
+      "autoPay": "false",
+      "location": "China",
+      "country": "CN",
+      "shippingInfo": {
+        "shippingServiceCost": {
+          "@currencyId": "USD",
+          "__value__": "0.0"
+        },
+        "shippingType": "Free",
+        "shipToLocations": "Worldwide",
+        "expeditedShipping": "false",
+        "oneDayShippingAvailable": "false",
+        "handlingTime": "5"
+      },
+      "sellingStatus": {
+        "currentPrice": {
+          "@currencyId": "USD",
+          "__value__": "4.41"
+        },
+        "convertedCurrentPrice": {
+          "@currencyId": "USD",
+          "__value__": "4.41"
+        },
+        "sellingState": "EndedWithSales"
+      },
+      "listingInfo": {
+        "bestOfferEnabled": "false",
+        "buyItNowAvailable": "false",
+        "startTime": "2018-04-13T06:44:12.000Z",
+        "endTime": "2018-08-15T16:48:54.000Z",
+        "listingType": "FixedPrice",
+        "gift": "false",
+        "watchCount": "1"
+      },
+      "returnsAccepted": "true",
+      "condition": {
+        "conditionId": "1000",
+        "conditionDisplayName": "New"
+      },
+      "isMultiVariationListing": "true",
+      "topRatedListing": "false"
+    }
+  ]
+}
