@@ -1,10 +1,10 @@
 import {EbayClient, makeEbayClient} from "../ebay/EbayClient"
 import {getPublisher} from "../pubsub/publisher"
-import {PipelineModule} from "../pipelines/pipeline.module";
-import {publish} from "./types/functions";
-import {seedMarketRequest} from "./seedMarketRequest";
-import {Items, ItemsRes, MarketDef} from "./types/models";
-import {getNextRequest} from "./nextRequest";
+import {PipelineModule} from "../pipelines/pipeline.module"
+import {publish} from "./types/functions"
+import {seedMarketRequest} from "./seedMarketRequest"
+import {Items, ItemsRes, MarketDef} from "./types/models"
+import {getNextRequest} from "./nextRequest"
 
 const PubSub = require(`@google-cloud/pubsub`)
 
@@ -21,9 +21,9 @@ export const RootModule = (config) => {
         parse: (res: ItemsRes): Items => ({ items: res.items, market_id: res.market_id })
     })
 
-    pipeline.items$.subscribe(i => console.log('items received', i.paginationOutput))
-
     return {
+        jobs$: pipeline.jobs$,
+        items$: pipeline.items$,
         ctrls: {
             ebay: {
                 executeJob: (mkt: MarketDef) => {
