@@ -7,7 +7,7 @@ export interface FindCompletedItemsResponseEntity {
     version?: (string)[] | null;
     timestamp?: (string)[] | null;
     searchResult: (SearchResultEntity)[];
-    paginationOutput?: (PaginationOutputEntity)[] | null;
+    paginationOutput: (PaginationOutputEntity)[];
 }
 export interface SearchResultEntity {
     '@count': string;
@@ -73,8 +73,8 @@ export interface ConditionEntity {
     conditionDisplayName?: (string)[] | null;
 }
 export interface PaginationOutputEntity {
-    pageNumber?: (string)[] | null;
-    entriesPerPage?: (string)[] | null;
-    totalPages?: (string)[] | null;
-    totalEntries?: (string)[] | null;
+    pageNumber: (string)[];
+    entriesPerPage: (string)[];
+    totalPages: (string)[];
+    totalEntries: (string)[];
 }
