@@ -1,7 +1,9 @@
-import {MarketDef} from "../root/types/models";
+#!/usr/bin/env node
+
+import {MarketDef} from "./root/types/models";
 import * as fs from "fs";
-import {RootModule} from "../root/root.module";
-import {getConfig} from "../config";
+import {RootModule} from "./root/root.module";
+import {getConfig} from "./config";
 const program = require('commander')
 const dotenv = require('dotenv')
 
@@ -15,8 +17,6 @@ const run = (mkt) => async (env) => {
     root.items$.subscribe((res) => console.log('publishing items...'))
     console.log(reply)
 }
-
-
 
 program.version('0.1.0', '-v, --version')
 program.option('-m, --market <mkt>', 'File path to market definition')
