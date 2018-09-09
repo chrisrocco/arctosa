@@ -1,5 +1,5 @@
 {
-  "name": "ebay-crawler",
+  "name": "arctosa",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "node dist/index.js",
     "watch": "tsc -w"
+  },
+  "bin": {
+    "arctosa": "dist/cli.js"
   },
   "keywords": [],
   "author": "",
