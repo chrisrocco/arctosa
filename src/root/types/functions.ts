@@ -1,14 +1,14 @@
-import {Item, ItemsReq, ItemsRes, MarketDef} from "./types/types";
+import {Item, Items, ItemsReq, ItemsRes, MarketDef} from "./models";
 
 type next = (res: ItemsRes) => ItemsReq | null
 
 type seed = (mkt: MarketDef) => ItemsReq
 
-type publish = (items: Item[]) => void
+type publish = (items: Items) => void
 
 type callEbay = (req: ItemsReq) => Promise<ItemsRes>
 
-type parse = (res: ItemsRes) => Item[]
+type parse = (res: ItemsRes) => Items
 
 export {
     next,
