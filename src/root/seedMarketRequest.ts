@@ -2,7 +2,7 @@ import {ItemsReq, MarketDef} from "./types/models";
 
 export const seedMarketRequest = (mkt: MarketDef): ItemsReq => ({
     market_id: mkt.uuid,
-    call_depth: 0,
+    call_depth: 1,
     query: {
         keywords: mkt.keywords,
         paginationInput: {

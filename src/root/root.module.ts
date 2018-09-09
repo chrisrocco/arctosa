@@ -1,22 +1,36 @@
-import EventEmitter from 'events'
-import {EbayClient, makeEbayClient} from "./ebay/EbayClient"
-import {getPublisher} from "./pubsub/publisher"
-import {getEbayController} from "./ebay/Ebay.ctrl"
+import {EbayClient, makeEbayClient} from "../ebay/EbayClient"
+import {getPublisher} from "../pubsub/publisher"
+import {PipelineModule} from "../pipelines/pipeline.module";
+import {publish} from "./types/functions";
+import {seedMarketRequest} from "./seedMarketRequest";
+import {Items, ItemsRes, MarketDef} from "./types/models";
+import {getNextRequest} from "./nextRequest";
 
 const PubSub = require(`@google-cloud/pubsub`)
 
 export const RootModule = (config) => {
 
-    const events = new EventEmitter()
     const pubsub = new PubSub()
-
     const eBay: EbayClient = makeEbayClient(config)
-    const publishCompletedItems = getPublisher(pubsub)('arctosa.completedItems')(events)
+    const publishCompletedItems: publish = getPublisher(pubsub)('arctosa.completedItems')
 
-    const eBayCtrl = getEbayController(eBay)(events)
+    const pipeline = PipelineModule({
+        callEbay: eBay.findCompletedItems,
+        publish: publishCompletedItems,
+        next: getNextRequest(5),
+        parse: (res: ItemsRes): Items => ({ items: res.items, market_id: res.market_id })
+    })
 
-    events.on('completedItems', () => {})
-    events.on('completedItems.published', msgID => console.log('published msg', msgID))
+    pipeline.items$.subscribe(i => console.log('items received', i.paginationOutput))
 
-    return {events, ctrls: {eBayCtrl}}
+    return {
+        ctrls: {
+            ebay: {
+                executeJob: (mkt: MarketDef) => {
+                    pipeline.queueRequest(seedMarketRequest(mkt))
+                    return { msg: "Job submitted for processing!" }
+                }
+            }
+        }
+    }
 }
