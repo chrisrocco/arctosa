@@ -1,6 +1,6 @@
 import axios from 'axios'
 import {FindCompletedItemsResponseEntity} from "./models/FindCompletedItemsResponseEntity"
-import {findCompletedItems} from "./findCompletedItems"
+import {findCompletedItems} from "./operations/findCompletedItems"
 import {noArrays, normalizeProps} from "./normalizeProps"
 import {callEbay} from "../root/types/functions"
 import {ItemsReq, ItemsRes} from "../root/types/models"

@@ -1,4 +1,4 @@
-import {FindCompletedItemsResponseEntity} from "./models/FindCompletedItemsResponseEntity";
+import {FindCompletedItemsResponseEntity} from "../models/FindCompletedItemsResponseEntity";
 
 export const findCompletedItems = axios => findingURL => (query): Promise<FindCompletedItemsResponseEntity> => {
     return axios.request({
