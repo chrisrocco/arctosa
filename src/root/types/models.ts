@@ -5,7 +5,8 @@ export type MarketDef = {
 
 export type FindCompletedItemsQuery = {
     keywords: string,
-    categoryId?: string,
+    categoryId?: string
+    outputSelector?: string
     itemFilter?: {
         name: string,
         value: number
