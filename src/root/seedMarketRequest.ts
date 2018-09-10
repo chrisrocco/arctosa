@@ -1,4 +1,4 @@
-import {ItemsReq, MarketDef} from "./types/models";
+import {ItemsReq, MarketDef} from "./types/models"
 
 export const seedMarketRequest = (mkt: MarketDef): ItemsReq => ({
     market_id: mkt.uuid,
