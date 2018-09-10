@@ -1,5 +1,10 @@
 export const getConfig = env => ({
 
+    custom: {
+        maxRecursionDepth: env.maxRecursionDepth || 10,
+        itemsPerPage: env.itemsPerPage || 100
+    },
+
     ebay: {
         appName: env.EBAY_APP_NAME,
         userCtx: env.EBAY_USER_CTX,

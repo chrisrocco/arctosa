@@ -28,7 +28,7 @@ export const RootModule = (config) => {
     // Function Definitions
     const callEbay: callEbay = eBay.findCompletedItems
     const publish: publish = publishCompletedItems
-    const next: next = getNextRequest(5)
+    const next: next = getNextRequest(config.custom.maxRecursionDepth)
     const parse: parse = (res: ItemsRes): Items => ({ items: res.items, market_id: res.market_id })
 
     // Streams
@@ -57,7 +57,7 @@ export const RootModule = (config) => {
         ctrls: {
             ebay: {
                 executeJob: (mkt: MarketDef) => {
-                    jobs$.next(seedMarketRequest(mkt))
+                    jobs$.next(seedMarketRequest(config)(mkt))
                     return { msg: "Job submitted for processing!" }
                 }
             }
