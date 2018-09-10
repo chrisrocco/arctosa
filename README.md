@@ -1,5 +1,8 @@
 # Arctosa | eBay Analytics Tool
 
+### Architectural Overview
+![Architectural Overview](https://image.ibb.co/kUKEPp/architectural_diagram.jpg)
+
 ### Man Page
 ##### Name
 ```
