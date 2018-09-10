@@ -30,7 +30,7 @@ export const makeEbayClient = (config): EbayClient => {
                         timestamp: res.timestamp as any,
                         call_depth: request.call_depth,
                         request_query: request.query,
-                        items: normalizeProps(noArrays)(res.searchResult[0].item),
+                        items: res.searchResult[0].item.map(normalizeProps(noArrays)),
                         paginationOutput: {
                             pageNumber: +res.paginationOutput[0].pageNumber[0],
                             entriesPerPage: +res.paginationOutput[0].entriesPerPage[0],
